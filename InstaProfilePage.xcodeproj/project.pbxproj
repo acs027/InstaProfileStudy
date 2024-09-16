@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0859855C2C972BFF00FF890E /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0859855B2C972BFF00FF890E /* NetworkManager.swift */; };
+		0859855E2C97CD7200FF890E /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0859855D2C97CD7200FF890E /* UIImage+Extension.swift */; };
+		085985632C97E7C400FF890E /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 085985622C97E7C400FF890E /* Readme.md */; };
+		085985682C97EC2500FF890E /* screenshot1.png in Resources */ = {isa = PBXBuildFile; fileRef = 085985652C97EC2500FF890E /* screenshot1.png */; };
+		085985692C97EC2500FF890E /* screenshot3.png in Resources */ = {isa = PBXBuildFile; fileRef = 085985662C97EC2500FF890E /* screenshot3.png */; };
+		0859856A2C97EC2500FF890E /* screenshot2.png in Resources */ = {isa = PBXBuildFile; fileRef = 085985672C97EC2500FF890E /* screenshot2.png */; };
+		08775DA82C8D2CAB0082482C /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08775DA72C8D2CAB0082482C /* ProfileHeaderView.swift */; };
+		087D9C5B2C9684F900C5D799 /* InstaTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087D9C5A2C9684F900C5D799 /* InstaTabBarController.swift */; };
+		0889FCDD2C8E6AF400C9432D /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0889FCDC2C8E6AF400C9432D /* ProfileViewModel.swift */; };
 		088E0E032C8BB2B800B8CE9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088E0E022C8BB2B800B8CE9D /* AppDelegate.swift */; };
 		088E0E052C8BB2B800B8CE9D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088E0E042C8BB2B800B8CE9D /* SceneDelegate.swift */; };
 		088E0E072C8BB2B900B8CE9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088E0E062C8BB2B800B8CE9D /* ViewController.swift */; };
@@ -16,6 +25,12 @@
 		088E0E1A2C8BB2BB00B8CE9D /* InstaProfilePageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088E0E192C8BB2BB00B8CE9D /* InstaProfilePageTests.swift */; };
 		088E0E242C8BB2BB00B8CE9D /* InstaProfilePageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088E0E232C8BB2BB00B8CE9D /* InstaProfilePageUITests.swift */; };
 		088E0E262C8BB2BB00B8CE9D /* InstaProfilePageUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088E0E252C8BB2BB00B8CE9D /* InstaProfilePageUITestsLaunchTests.swift */; };
+		088E0E352C8BB70B00B8CE9D /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088E0E342C8BB70B00B8CE9D /* PostCell.swift */; };
+		088E0E392C8BDEA600B8CE9D /* StoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088E0E382C8BDEA600B8CE9D /* StoryCell.swift */; };
+		088E0E3B2C8BE2AC00B8CE9D /* PostsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088E0E3A2C8BE2AC00B8CE9D /* PostsCell.swift */; };
+		08AAAEAF2C8F9B0800AB9E22 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AAAEAE2C8F9B0800AB9E22 /* Model.swift */; };
+		08AAAEB22C8FA00900AB9E22 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 08AAAEB12C8FA00900AB9E22 /* Alamofire */; };
+		08AAAEB72C8FEA0D00AB9E22 /* ReelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AAAEB62C8FEA0D00AB9E22 /* ReelCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +51,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0859855B2C972BFF00FF890E /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		0859855D2C97CD7200FF890E /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		085985622C97E7C400FF890E /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
+		085985652C97EC2500FF890E /* screenshot1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot1.png; sourceTree = "<group>"; };
+		085985662C97EC2500FF890E /* screenshot3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot3.png; sourceTree = "<group>"; };
+		085985672C97EC2500FF890E /* screenshot2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot2.png; sourceTree = "<group>"; };
+		08775DA72C8D2CAB0082482C /* ProfileHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
+		087D9C5A2C9684F900C5D799 /* InstaTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaTabBarController.swift; sourceTree = "<group>"; };
+		0889FCDC2C8E6AF400C9432D /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
 		088E0DFF2C8BB2B800B8CE9D /* InstaProfilePage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaProfilePage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		088E0E022C8BB2B800B8CE9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		088E0E042C8BB2B800B8CE9D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +73,11 @@
 		088E0E1F2C8BB2BB00B8CE9D /* InstaProfilePageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaProfilePageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		088E0E232C8BB2BB00B8CE9D /* InstaProfilePageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaProfilePageUITests.swift; sourceTree = "<group>"; };
 		088E0E252C8BB2BB00B8CE9D /* InstaProfilePageUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaProfilePageUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		088E0E342C8BB70B00B8CE9D /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		088E0E382C8BDEA600B8CE9D /* StoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryCell.swift; sourceTree = "<group>"; };
+		088E0E3A2C8BE2AC00B8CE9D /* PostsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsCell.swift; sourceTree = "<group>"; };
+		08AAAEAE2C8F9B0800AB9E22 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		08AAAEB62C8FEA0D00AB9E22 /* ReelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReelCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08AAAEB22C8FA00900AB9E22 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,9 +106,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0859855F2C97E0FD00FF890E /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				0859855B2C972BFF00FF890E /* NetworkManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		085985602C97E10800FF890E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0859855D2C97CD7200FF890E /* UIImage+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		085985612C97E13E00FF890E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				087D9C5A2C9684F900C5D799 /* InstaTabBarController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		085985642C97EC0400FF890E /* screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				085985652C97EC2500FF890E /* screenshot1.png */,
+				085985672C97EC2500FF890E /* screenshot2.png */,
+				085985662C97EC2500FF890E /* screenshot3.png */,
+			);
+			path = screenshots;
+			sourceTree = "<group>";
+		};
 		088E0DF62C8BB2B800B8CE9D = {
 			isa = PBXGroup;
 			children = (
+				085985622C97E7C400FF890E /* Readme.md */,
+				085985642C97EC0400FF890E /* screenshots */,
 				088E0E012C8BB2B800B8CE9D /* InstaProfilePage */,
 				088E0E182C8BB2BB00B8CE9D /* InstaProfilePageTests */,
 				088E0E222C8BB2BB00B8CE9D /* InstaProfilePageUITests */,
@@ -101,7 +167,12 @@
 			children = (
 				088E0E022C8BB2B800B8CE9D /* AppDelegate.swift */,
 				088E0E042C8BB2B800B8CE9D /* SceneDelegate.swift */,
-				088E0E062C8BB2B800B8CE9D /* ViewController.swift */,
+				085985612C97E13E00FF890E /* Controllers */,
+				085985602C97E10800FF890E /* Extensions */,
+				0859855F2C97E0FD00FF890E /* Network */,
+				08AAAEB52C8FE1DE00AB9E22 /* Model */,
+				08AAAEAC2C8F9AAD00AB9E22 /* View */,
+				08AAAEAD2C8F9AD500AB9E22 /* ViewModel */,
 				088E0E082C8BB2B900B8CE9D /* Main.storyboard */,
 				088E0E0B2C8BB2BA00B8CE9D /* Assets.xcassets */,
 				088E0E0D2C8BB2BA00B8CE9D /* LaunchScreen.storyboard */,
@@ -127,6 +198,35 @@
 			path = InstaProfilePageUITests;
 			sourceTree = "<group>";
 		};
+		08AAAEAC2C8F9AAD00AB9E22 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				088E0E062C8BB2B800B8CE9D /* ViewController.swift */,
+				088E0E342C8BB70B00B8CE9D /* PostCell.swift */,
+				08AAAEB62C8FEA0D00AB9E22 /* ReelCell.swift */,
+				08775DA72C8D2CAB0082482C /* ProfileHeaderView.swift */,
+				088E0E382C8BDEA600B8CE9D /* StoryCell.swift */,
+				088E0E3A2C8BE2AC00B8CE9D /* PostsCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		08AAAEAD2C8F9AD500AB9E22 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0889FCDC2C8E6AF400C9432D /* ProfileViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		08AAAEB52C8FE1DE00AB9E22 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				08AAAEAE2C8F9B0800AB9E22 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +243,9 @@
 			dependencies = (
 			);
 			name = InstaProfilePage;
+			packageProductDependencies = (
+				08AAAEB12C8FA00900AB9E22 /* Alamofire */,
+			);
 			productName = InstaProfilePage;
 			productReference = 088E0DFF2C8BB2B800B8CE9D /* InstaProfilePage.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +318,9 @@
 				Base,
 			);
 			mainGroup = 088E0DF62C8BB2B800B8CE9D;
+			packageReferences = (
+				08AAAEB02C8FA00900AB9E22 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 088E0E002C8BB2B800B8CE9D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,7 +339,11 @@
 			files = (
 				088E0E0C2C8BB2BA00B8CE9D /* Assets.xcassets in Resources */,
 				088E0E0F2C8BB2BA00B8CE9D /* Base in Resources */,
+				085985632C97E7C400FF890E /* Readme.md in Resources */,
+				0859856A2C97EC2500FF890E /* screenshot2.png in Resources */,
+				085985692C97EC2500FF890E /* screenshot3.png in Resources */,
 				088E0E0A2C8BB2B900B8CE9D /* Base in Resources */,
+				085985682C97EC2500FF890E /* screenshot1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +368,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0859855E2C97CD7200FF890E /* UIImage+Extension.swift in Sources */,
 				088E0E072C8BB2B900B8CE9D /* ViewController.swift in Sources */,
 				088E0E032C8BB2B800B8CE9D /* AppDelegate.swift in Sources */,
+				08AAAEAF2C8F9B0800AB9E22 /* Model.swift in Sources */,
+				0859855C2C972BFF00FF890E /* NetworkManager.swift in Sources */,
+				088E0E3B2C8BE2AC00B8CE9D /* PostsCell.swift in Sources */,
+				088E0E392C8BDEA600B8CE9D /* StoryCell.swift in Sources */,
+				08775DA82C8D2CAB0082482C /* ProfileHeaderView.swift in Sources */,
+				0889FCDD2C8E6AF400C9432D /* ProfileViewModel.swift in Sources */,
+				08AAAEB72C8FEA0D00AB9E22 /* ReelCell.swift in Sources */,
+				087D9C5B2C9684F900C5D799 /* InstaTabBarController.swift in Sources */,
 				088E0E052C8BB2B800B8CE9D /* SceneDelegate.swift in Sources */,
+				088E0E352C8BB70B00B8CE9D /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -607,6 +727,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		08AAAEB02C8FA00900AB9E22 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		08AAAEB12C8FA00900AB9E22 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 08AAAEB02C8FA00900AB9E22 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 088E0DF72C8BB2B800B8CE9D /* Project object */;
 }

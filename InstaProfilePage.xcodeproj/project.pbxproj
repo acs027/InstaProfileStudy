@@ -15,6 +15,7 @@
 		0859856A2C97EC2500FF890E /* screenshot2.png in Resources */ = {isa = PBXBuildFile; fileRef = 085985672C97EC2500FF890E /* screenshot2.png */; };
 		08775DA82C8D2CAB0082482C /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08775DA72C8D2CAB0082482C /* ProfileHeaderView.swift */; };
 		087D9C5B2C9684F900C5D799 /* InstaTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087D9C5A2C9684F900C5D799 /* InstaTabBarController.swift */; };
+		088855352C9C7140009ECA94 /* app.gif in Resources */ = {isa = PBXBuildFile; fileRef = 088855342C9C7140009ECA94 /* app.gif */; };
 		0889FCDD2C8E6AF400C9432D /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0889FCDC2C8E6AF400C9432D /* ProfileViewModel.swift */; };
 		088E0E032C8BB2B800B8CE9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088E0E022C8BB2B800B8CE9D /* AppDelegate.swift */; };
 		088E0E052C8BB2B800B8CE9D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088E0E042C8BB2B800B8CE9D /* SceneDelegate.swift */; };
@@ -59,6 +60,7 @@
 		085985672C97EC2500FF890E /* screenshot2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot2.png; sourceTree = "<group>"; };
 		08775DA72C8D2CAB0082482C /* ProfileHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
 		087D9C5A2C9684F900C5D799 /* InstaTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaTabBarController.swift; sourceTree = "<group>"; };
+		088855342C9C7140009ECA94 /* app.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = app.gif; sourceTree = "<group>"; };
 		0889FCDC2C8E6AF400C9432D /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
 		088E0DFF2C8BB2B800B8CE9D /* InstaProfilePage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaProfilePage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		088E0E022C8BB2B800B8CE9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 				085985652C97EC2500FF890E /* screenshot1.png */,
 				085985672C97EC2500FF890E /* screenshot2.png */,
 				085985662C97EC2500FF890E /* screenshot3.png */,
+				088855342C9C7140009ECA94 /* app.gif */,
 			);
 			path = screenshots;
 			sourceTree = "<group>";
@@ -341,6 +344,7 @@
 				088E0E0F2C8BB2BA00B8CE9D /* Base in Resources */,
 				085985632C97E7C400FF890E /* Readme.md in Resources */,
 				0859856A2C97EC2500FF890E /* screenshot2.png in Resources */,
+				088855352C9C7140009ECA94 /* app.gif in Resources */,
 				085985692C97EC2500FF890E /* screenshot3.png in Resources */,
 				088E0E0A2C8BB2B900B8CE9D /* Base in Resources */,
 				085985682C97EC2500FF890E /* screenshot1.png in Resources */,
